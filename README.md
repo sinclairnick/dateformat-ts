@@ -43,3 +43,4 @@ type FormattedDate = Format<SomeDateObject, "some-format-string">;
 -   Not all format parts implemented, like ISO and locale-stuff
 -   No input validation is done
 -   Escaping syntax is not respected (not implemented yet)
+-   `FromIso` does _not_ produce `dayOfYear` or `dayOfWeek` information
