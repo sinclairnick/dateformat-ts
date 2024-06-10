@@ -1,4 +1,4 @@
-# DateFormat TS 
+# DateFormat TS
 
 **Format date information at the type-level, according to the [Unicode #35 standard](https://www.unicode.org/reports/tr35/tr35-dates.html#Date_Field_Symbol_Table)**
 
@@ -6,7 +6,7 @@
 
 ```ts
 // Init date
-type Date = FromIso<"2024-06-10T04:39:46.229Z">
+type Date = FromIso<"2024-06-10T04:39:46.229Z">;
 
 // Format date
 type Formatted = Format<Date, "dd-MM-yy H:mm:ss aa">;
@@ -17,7 +17,7 @@ type Formatted = Format<Date, "dd-MM-yy H:mm:ss aa">;
 
 ## Usage
 
-Given an `DateObject`
+Given a `DateObject`
 
 ```ts
 export type DateObject = {
