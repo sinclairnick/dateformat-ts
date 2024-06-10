@@ -6,11 +6,11 @@
 
 ```ts
 // Init date
-type Date = FromIso<"2024-16-10T04:39:46.229Z">
+type Date = FromIso<"2024-06-10T04:39:46.229Z">
 
 // Format date
-type Formatted = Format<Date, "dd-MM-yy HH:mm:ss aa">;
-//   ^? 10-16-24 04:39:46 AM
+type Formatted = Format<Date, "dd-MM-yy H:mm:ss aa">;
+//   ^? 10-06-24 4:39:46 AM
 ```
 
 > This is just a toy project, it's probably not super useful in production

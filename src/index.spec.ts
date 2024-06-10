@@ -80,8 +80,8 @@ describe("Format", () => {
       Format<TestDate, "EEEE, dd-Mo">
     >().toEqualTypeOf<"Tuesday, 01-5th">();
 
-    type DateFromIso = FromIso<"2024-16-10T04:39:46.229Z">;
-    type Result = Format<DateFromIso, "dd-MM-yy HH:mm:ss aa">;
-    expectTypeOf<Result>().toEqualTypeOf<"10-16-24 04:39:46 AM">();
+    type DateFromIso = FromIso<"2024-06-10T04:39:46.229Z">;
+    type Result = Format<DateFromIso, "dd-MM-yy H:mm:ss aa">;
+    expectTypeOf<Result>().toEqualTypeOf<"10-06-24 4:39:46 AM">();
   });
 });
