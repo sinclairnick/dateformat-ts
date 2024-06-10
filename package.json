@@ -1,0 +1,13 @@
+{
+  "name": "ts-date",
+  "module": "index.ts",
+  "type": "module",
+  "dependencies": {
+    "dayjs": "^1.11.11"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0",
+    "@types/bun": "latest",
+    "typescript": "^5.0.0"
+  }
+}
